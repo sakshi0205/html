@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <h2>Students Details</h2>
+  <meta charset="ISO-8859-1">
+  <title>HTML DEMO</title>
+ </head>
+ <body>
+     <form name="simple form" action="www.capgemini.com" method="post">
+
+    <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required="required" pattern="[a-zA-Z]{3,20}"/>
+    </div>
+
+<div>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" placeholder="Enter your password" required="required" pattern="[a-zA-Z]{3}[0-9]"/>
+</div>
+
+<div>
+<label for="age">Age:</label>
+<input type="number" id="age" name="age" placeholder="Enter age between 18-50" required="required"/>
+</div>
+
+<div>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter your email id" required="required"/>
+</div>
+
+<div>
+<label for="color">what is your favorite color:</label>
+<input type="color" required="required"/>
+</div>
+
+<div>
+<label for="rate your course">Rate your course:</label>
+<input type="range" name="points" min="0" max="10" required="required"/>
+</div>
+
+<div>
+<label for="gender">Gender:</label>
+                     <input type="radio" value="Male" name="gender" >Male
+                    <input type="radio" value="Female" name="gender">Female
+                    <input type="radio" value="Other" name="gender">Other
+</div>
+
+<div>
+<label for="subjects">Enter your subject:</label>
+                    <input type="checkbox" value="Math" name="subjects">Math
+                    <input type="checkbox" value="Geography" name="subjects">Geography
+                    <input type="checkbox" value="History" name="subjects">History
+                    <input type="checkbox" value="English" name="subjects">English
+</div>
+
+<div>
+<label for="teachername">Enter your class teacher name:</label>
+ <select id="class Teacher name">
+   <option value="select">select</option>
+          <option value="SR">SakshiRaut</option>
+           <option value="PP">PriyankaPawar</option>
+            <option value="SY">SwatiYadav</option>
+</select>
+ </div>    
+ 
+ <div>  
+ <button type="button">Submit</button>       
+  <button type="button">Reset</button>   
+
+</div>
+
+</form>
+<br>
+<a href="http://www.capgemini.com" target="_top">Visit capgemini page</a>
+
+<br>
+<img src="book.png" height="100" alt="img not available"/>
+
+<br>
+<video controls poster="book.png" muted="muted" autoplay="autoplay">
+<source src="Bunny.ogv" >
+<source src="Bunny.mp4" >
+</video>
+
+<br>
+<audio controls>
+<source src="ring.mp3">
+</audio>
+
+</body>
+</html>
